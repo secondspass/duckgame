@@ -4,7 +4,7 @@ function love.load()
 end
 
 function love.update(dt)
-	if x < 600 then
+	if not (x > 600) then
 		x = x + 5 * dt
 	end
 end
